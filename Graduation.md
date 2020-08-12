@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <title>Graduation 2020</title>
     <style>
-        body{
-            overflow:hidden;
-        }
         @font-face {
             font-family: "MaShanZheng";
             src: url('./resources/fonts/MaShanZheng-Regular.ttf'); /* IE9 Compat Modes */
@@ -37,7 +34,7 @@
         #chinese-quotes,#english-quotes, #chinese-quotes *,#english-quotes *{z-index:20;}
         section{display:block;width:100%;margin-bottom:8px;}
         #video-frame{
-            width:calc(100vh/16*9);
+            width:100vh/16*9;
             height:100vh;
             margin:0 auto;position:relative;
             background-color:#000;
