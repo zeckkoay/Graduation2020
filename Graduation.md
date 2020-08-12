@@ -37,8 +37,8 @@
         #chinese-quotes,#english-quotes, #chinese-quotes *,#english-quotes *{z-index:20;}
         section{display:block;width:100%;margin-bottom:8px;}
         #video-frame{
-            min-width:1080px;width:1080px;max-width:1080px;
-            min-height:1920px;height:1920px;max-height:1920px;
+            width:calc(100vh/16*9);
+            height:100vh;
             margin:0 auto;position:relative;
             background-color:#000;
             overflow: hidden;
